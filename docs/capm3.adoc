@@ -1,0 +1,3 @@
+= Cluster-api-provider-metal3
+
+include::https://raw.githubusercontent.com/Nordix/cluster-api-provider-metal3/asciidoc/feruz/docs/api.adoc[]
