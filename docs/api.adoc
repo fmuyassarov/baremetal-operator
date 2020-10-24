@@ -2,8 +2,8 @@
 
 === BareMetalHost
 
-*Metal³* introduces the concept of *BareMetalHost* resource, which
-defines a physical host and its properties. The *BareMetalHost* embeds
+Metal³ introduces the concept of BareMetalHost resource, which
+defines a physical host and its properties. The BareMetalHost embeds
 two well differentiated sections, the bare metal host specification and
 its current status.
 
@@ -406,11 +406,9 @@ credentials, base64 encoded:
 [source,console]
 ----
 $echo -n 'admin' | base64
-
 YWRtaW4=
 
 $echo -n 'password' | base64
-
 cGFzc3dvcmQ=
 ----
 
@@ -453,12 +451,12 @@ and their power state is undefined.
 === Pausing reconciliation
 
 It is possible to pause the reconciliation of a BareMetalHost object by
-adding an annotation `baremetalhost.metal3.io/paused`. *Metal³* provider
+adding an annotation `baremetalhost.metal3.io/paused`. Metal³ provider
 sets the value of this annotation as `metal3.io/capm3` when the cluster
-to which the *BareMetalHost* belongs, is paused and removes it when the
+to which the BareMetalHost belongs, is paused and removes it when the
 cluster is not paused. If you want to pause the reconciliation of
-*BareMetalHost* you can put any value on this annotation *other than
-`metal3.io/capm3`*. Please make sure that you remove the annotation
-*only if the value of the annotation is not `metal3.io/capm3`, but
+BareMetalHost you can put any value on this annotation other than
+`metal3.io/capm3`. Please make sure that you remove the annotation
+only if the value of the annotation is not `metal3.io/capm3`, but
 another value that you have provided*. Removing the annotation will
 enable the reconciliation again.

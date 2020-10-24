@@ -1,4 +1,4 @@
-== Running Bare Metal Operator with or without Ironic
+== Running Baremetal Operator with or without Ironic
 
 This document explains the deployment scenarios of deploying Bare Metal
 Operator(BMO) with or without Ironic as well as deploying only Ironic

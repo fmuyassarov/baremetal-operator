@@ -3,9 +3,8 @@
 === With minikube
 
 [arabic]
-. Install and launch minikube
+. Install and launch https://kubernetes.io/docs/setup/minikube/[minikube]
 +
-https://kubernetes.io/docs/setup/minikube/
 . Create a namespace to host the operator
 +
 [source,bash]
@@ -23,7 +22,7 @@ git clone https://github.com/metal3-io/baremetal-operator.git
 cd baremetal-operator
 kustomize build config/default | kubectl apply -f
 ----
-. OR Launch the operator locally
+. Or Launch the operator locally
 +
 [source,bash]
 ----
@@ -34,6 +33,7 @@ export IRONIC_ENDPOINT=http://localhost:6385/v1/
 export IRONIC_INSPECTOR_ENDPOINT=http://localhost:5050/v1
 make run
 ----
+
 . Create the CR
 +
 [source,bash]
@@ -218,7 +218,11 @@ definitions for workers than editing the files directly.
 ----
 $ go run cmd/make-bm-worker/main.go -address 1.2.3.4 \
   -password password -user admin worker-99
----
+----
+
+
+[source,yaml]
+----
 apiVersion: v1
 kind: Secret
 metadata:

@@ -88,7 +88,7 @@ development tools using `go get`, e-g
 
 [source,bash]
 ----
-go get golang.org/x/lint/golint
+# go get golang.org/x/lint/golint
 ----
 
 This ensures that the linters you have locally and the ones running in

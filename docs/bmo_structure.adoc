@@ -1,0 +1,15 @@
+= Baremetal Operator
+:toc: left
+:sectnums:
+
+// :title-logo-image: image:metal3.png[pdfwidth=4.25in,align=center]
+
+include::api.adoc[]
+
+include::dev-setup.adoc[]
+
+include::testing.adoc[]
+
+include::deploying.adoc[]
+
+include::ironic-authentication.adoc[]
