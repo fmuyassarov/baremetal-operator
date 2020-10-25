@@ -50,7 +50,8 @@ operator when launching it.
 
 [source,bash]
 ----
-make run-test-mode
+$ make run-test-mode
+// $ make run-test-mode2
 ----
 
 === Running a local instance of Ironic
