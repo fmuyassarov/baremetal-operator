@@ -239,3 +239,6 @@ kind-reset: ## Destroys the "bmo" kind cluster.
 mod: ## Clean up go module settings
 	go mod tidy
 	go mod verify
+
+.PHONY: build-book
+build-book: sudo apt-get install asciidoctor
