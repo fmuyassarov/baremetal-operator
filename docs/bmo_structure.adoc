@@ -1,4 +1,4 @@
-= Baremetal Operator
+= *BAREMETAL OPERATOR*
 :toc: left
 :sectnums:
 
