@@ -1,4 +1,4 @@
-= *BAREMETAL OPERATOR*
+= *_BAREMETAL OPERATOR_*
 :toc: left
 :sectnums:
 
