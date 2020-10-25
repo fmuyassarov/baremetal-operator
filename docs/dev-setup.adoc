@@ -97,7 +97,7 @@ instance of Ironic running, just run
 
 [source,sh]
 ----
-  make tilt-up
+ # make tilt-up
 ----
 
 and clean it with
